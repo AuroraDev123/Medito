@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: gray;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: purple;
+}
+
+.description {
+    color: #000;
+}
+
+.progress-container {
+    margin-top: 50px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #663399; /* Purple */
+}
+
+.progress-label,
+.progress-value {
+    margin-top: 10px;
+    color: #000;
+}
+
+.donation-section {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #663399; /* Purple */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.rewards-section,
+.notification-bar {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */

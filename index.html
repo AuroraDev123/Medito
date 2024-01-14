@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Medito Fundraising</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Medito Fundraising</h1>
+        <p class="description">Support our cause and make a difference!</p>
+
+        <div class="progress-container">
+            <p class="progress-label">Fundraising Progress:</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <p class="progress-value"><span id="progressValue">0</span>%</p>
+        </div>
+
+        <!--To-Do: -->
+        <!-- Dropdown -->
+
+        <div class="donation-section">
+            <label for="donationAmount">Donation Amount:</label>
+            <input type="number" id="donationAmount" placeholder="Enter amount" min="1" required>
+            <button onclick="handleDonate()">Donate</button>
+        </div>
+
+
+        <div class="notification-bar">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
